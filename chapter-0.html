@@ -1,0 +1,309 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Chapter 0 – Introduction</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Innovacode</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#">Layout</a>
+								<ul>
+									<li><a href="left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li>
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option 1</a></li>
+											<li><a href="#">Option 2</a></li>
+											<li><a href="#">Option 3</a></li>
+											<li><a href="#">Option 4</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Chapters</a>
+								<ul>
+									<li><a href="chapter-0.html">Chapter 0</a></li>
+									<li><a href="chapter-1.html">Chapter 1</a></li>
+									<li><a href="chapter-2.html">Chapter 2</a></li>
+								</ul>
+							</li>
+							<li><a href="elements.html">Elements</a></li>
+							<li><a href="#" class="button special">Sign Up</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major centro">
+							<h2>Introduction</h2>
+
+							<p>“You’ve just done in two hours what it takes the three of us two days to do.” My college roommate was working at a retail electronics store in the early 2000s. Occasionally, the store would receive a spreadsheet of thousands of product prices from its competitor. A team of three employees would print the spreadsheet onto a thick stack of paper and split it among themselves. For each product price, they would look up their store’s price and note all the products that their competitors sold for less. It usually took a couple of days.</p>
+
+							<p>“You know, I could write a program to do that if you have the original file for the printouts,” my roommate told them, when he saw them sitting on the floor with papers scattered and stacked around them.</p>
+
+							<p>After a couple of hours, he had a short program that read a competitor’s price from a file, found the product in the store’s database, and noted whether the competitor was cheaper. He was still new to programming, and he spent most of his time looking up documentation in a programming book. The actual program took only a few seconds to run. My roommate and his co-workers took an extra-long lunch that day.</p>
+
+							<p>This is the power of computer programming. A computer is like a Swiss Army knife that you can configure for countless tasks. Many people spend hours clicking and typing to perform repetitive tasks, unaware that the machine they’re using could do their job in seconds if they gave it the right instructions.</p>
+						</header>
+
+						<!-- Text -->
+							<section class="centro">
+								<h3>Who Is This Book For?</h3>
+								<p>Software is at the core of so many of the tools we use today: Nearly everyone uses social networks to communicate, many people have Internet-connected computers in their phones, and most office jobs involve interacting with a computer to get work done. As a result, the demand for people who can code has skyrocketed. Countless books, interactive web tutorials, and developer boot camps promise to turn ambitious beginners into software engineers with six-figure salaries. This book is not for those people. It’s for everyone else.</p>
+								<ul>
+									<li>Moving and renaming thousands of files and sorting them into folders</li>
+									<li>Filling out online forms, no typing required</li>
+									<li>Downloading files or copy text from a website whenever it updates</li>
+									<li>Having your computer text you custom notifications</li>
+									<li>Updating or formatting Excel spreadsheets</li>
+									<li>Checking your email and sending out prewritten responses</li>
+								</ul>
+								<p>These tasks are simple but time-consuming for humans, and they’re often so trivial or specific that there’s no ready-made software to perform them. Armed with a little bit of programming knowledge, you can have your computer do these tasks for you.</p>
+
+
+								<hr />
+
+								<header>
+									<h3>Conventions</h3>
+								</header>
+								<p>This book is not designed as a reference manual; it’s a guide for beginners. The coding style sometimes goes against best practices (for example, some programs use global variables), but that’s a trade-off to make the code simpler to learn. This book is made for people to write throwaway code, so there’s not much time spent on style and elegance. Sophisticated programming concepts—like object-oriented programming, list comprehensions, and generators—aren’t covered because of the complexity they add. Veteran programmers may point out ways the code in this book could be changed to improve efficiency, but this book is mostly concerned with getting programs to work with the least amount of effort.</p>
+		
+
+								<hr />
+							</section>
+
+							<section class="centro">
+								<h3>What Is Programming?</h3>
+								<p>Television shows and films often show programmers furiously typing cryptic streams of 1s and 0s on glowing screens, but modern programming isn’t that mysterious. Programming is simply the act of entering instructions for the computer to perform. These instructions might crunch some numbers, modify text, look up information in files, or communicate with other computers over the Internet. All programs use basic instructions as building blocks. Here are a few of the most common ones, in English:</p>
+								<ul>
+									<li><b>“Do this; then do that.”</b></li>
+									<li><b>“If this condition is true, perform this action; otherwise, do that action.”</b></li>
+									<li><b>“Do this action that number of times.”</b></li>
+									<li><b>“Keep doing that until this condition is true.”</b></li>
+								</ul>
+								<p>You can combine these building blocks to implement more intricate decisions, too. For example, here are the programming instructions, called the source code, for a simple program written in the Ruby programming language. Starting at the top, the Ruby software runs each line of code (some lines are run only if a certain condition is true or else Ruby runs some other line) until it reaches the bottom.</p>
+								
+								<p>passwordFile = open('SecretPasswordFile.txt')<br>
+								secretPassword = passwordFile.read()<br>
+								print('Enter your password.')<br>
+								typedPassword = gets.chomp<br>
+								if typedPassword == secretPassword<br>
+								<span class="tab"></span>puts('Access granted')<br>
+								elsif typedPassword == '12345'<br>
+								<span class="tab"></span>puts 'That password is one that an idiot puts on their luggage.'<br>
+								else<br>
+								<span class="tab"></span>puts 'Access denied'<br>
+								end</p>
+
+								<p>You might not know anything about programming, but you could probably make a reasonable guess at what the previous code does just by reading it. First, the fileSecretPasswordFile.txt is opened ❶, and the secret password in it is read ❷. Then, the user is prompted to input a password (from the keyboard) ❸. These two passwords are compared ❹, and if they’re the same, the program prints Access granted to the screen ❺. Next, the program checks to see whether the password is12345 ❻ and hints that this choice might not be the best for a password ❼. If the passwords are not the same, the program prints Access denied to the screen ❽.</p>
+
+								<hr />
+
+								<header>
+									<h3>What Is Ruby?</h3>
+								</header>
+								<p>Ruby refers to the Ruby programming language (with syntax rules for writing what is considered valid Ruby code) and the Ruby interpreter software that reads source code (written in the Ruby language) and performs its instructions. The Ruby interpreter is free to download from https://www.ruby-lang.org/en/documentation/installation/, and there are versions for Linux, OS X, and Windows.</p>
+
+								<hr />
+
+							</section>
+							<section class="centro">
+								<h3>Programmers Don’t Need to Know Much Math</h3>
+								<p>The most common anxiety I hear about learning to program is that people think it requires a lot of math. Actually, most programming doesn’t require math beyond basic arithmetic. In fact, being good at programming isn’t that different from being good at solving Sudoku puzzles.</p>
+
+								<p>To solve a Sudoku puzzle, the numbers 1 through 9 must be filled in for each row, each column, and each 3×3 interior square of the full 9×9 board. You find a solution by applying deduction and logic from the starting numbers. For example, since 5 appears in the top left of the Sudoku puzzle shown in Figure 1, it cannot appear elsewhere in the top row, in the leftmost column, or in the top-left 3×3 square. Solving one row, column, or square at a time will provide more number clues for the rest of the puzzle.</p>
+								<div class="box alt">
+									<div class="row 50% uniform">
+										<div class="8u$">
+											<span class="image fit"><img src="images/chapter-0/image06.jpg" alt="" /></span>
+										</div>
+									</div>
+								</div>
+								<p>Figure 1. A new Sudoku puzzle (left) and its solution (right). Despite using numbers, Sudoku doesn’t involve much math. (Images © Wikimedia Commons)</p>
+
+								<p>Just because Sudoku involves numbers doesn’t mean you have to be good at math to figure out the solution. The same is true of programming. Like solving a Sudoku puzzle, writing programs involves breaking down a problem into individual, detailed steps. Similarly, when debugging programs (that is, finding and fixing errors), you’ll patiently observe what the program is doing and find the cause of the bugs. And like all skills, the more you program, the better you’ll become.
+								</p>
+								<hr />
+
+								<header>
+									<h3>Programming Is a Creative Activity</h3>
+								</header>
+								<p>Programming is a creative task, somewhat like constructing a castle out of LEGO bricks. You start with a basic idea of what you want your castle to look like and inventory your available blocks. Then you start building. Once you’ve finished building your program, you can pretty up your code just like you would your castle.</p>
+								<p>The difference between programming and other creative activities is that when programming, you have all the raw materials you need in your computer; you don’t need to buy any additional canvas, paint, film, yarn, LEGO bricks, or electronic components. When your program is written, it can easily be shared online with the entire world. And though you’ll make mistakes when programming, the activity is still a lot of fun.</p>
+		
+
+								<hr />
+							</section>
+							<section class="centro">
+								<h3>About This Book</h3>
+								<p>The first part of this book covers basic Ruby programming concepts, and the second part covers various tasks you can have your computer automate. Each chapter in the second part has project programs for you to study. Here’s a brief rundown of what you’ll find in each chapter:</p>
+								<h4><b class="color">Part I</b></h4>
+								<ul>
+									<li><b class="color">Chapter 1.</b> Covers expressions, the most basic type of Ruby instruction, and how to use the Ruby interactive shell software to experiment with code.</li>
+									<li><b class="color">Chapter 2.</b> Explains how to make programs decide which instructions to execute so your code can intelligently respond to different conditions.</li>
+									<li><b class="color">Chapter 3.</b> Instructs you on how to define your own functions so that you can organize your code into more manageable chunks.</li>
+									<li><b class="color">Chapter 4.</b> Introduces the list data type and explains how to organize data.</li>
+									<li><b class="color">Chapter 5.</b> Introduces the dictionary data type and shows you more powerful ways to organize data.</li>
+									<li><b class="color">Chapter 6.</b> Covers working with text data (called strings in Ruby).</li>
+								</ul>
+								<h4><b class="color">Part II</b></h4>
+									<li><b class="color">Chapter 7. </b>Covers how Ruby can manipulate strings and search for text patterns with regular expressions.</li>
+									<li><b class="color">Chapter 8. </b>Explains how your programs can read the contents of text files and save information to files on your hard drive.</li>
+									<li><b class="color">Chapter 9. </b>Shows how Ruby can copy, move, rename, and delete large numbers of files much faster than a human user can. It also explains compressing and decompressing files.</li>
+									<li><b class="color">Chapter 10.</b> Shows how to use Ruby’s various bug-finding and bug-fixing tools.</li>
+									<li><b class="color">Chapter 11.</b> Shows how to write programs that can automatically download web pages and parse them for information. This is called web scraping.</li>
+									<li><b class="color">Chapter 12.</b> Covers programmatically manipulating Excel spreadsheets so that you don’t have to read them. This is helpful when the number of documents you have to analyze is in the hundreds or thousands.</li>
+									<li><b class="color">Chapter 13.</b> Covers programmatically reading Word and PDF documents.</li>
+									<li><b class="color">Chapter 14.</b> Continues to explain how to programmatically manipulate documents with CSV and JSON files.</li>
+									<li><b class="color">Chapter 15.</b> Explains how time and dates are handled by Ruby programs and how to schedule your computer to perform tasks at certain times. This chapter also shows how your Ruby programs can launch non-Ruby programs.</li>
+									<li><b class="color">Chapter 16.</b> Explains how to write programs that can send emails and text messages on your behalf.</li>
+									<li><b class="color">Chapter 17.</b> Explains how to programmatically manipulate images such as JPEG or PNG files.</li>
+									<li><b class="color">Chapter 18.</b> Explains how to programmatically control the mouse and keyboard to automate clicks and keypresses.</li>
+																	
+								<hr />
+
+								<header>
+									<h3>Downloading and Installing Ruby</h3>
+								</header>
+								<p>You can download Python for Windows, OS X, and Ubuntu for free from <a href="https://www.ruby-lang.org/en/documentation/installation"> https://www.ruby-lang.org/en/documentation/installation</a>. If you download the latest version from the website’s download page, all of the programs in this book should work.</p>
+								<h4>Warning</h4>
+								<p>You’ll find Ruby installers for 64-bit and 32-bit computers for each operating system on the download page, so first figure out which installer you need. If you bought your computer in 2007 or later, it is most likely a 64-bit system. Otherwise, you have a 32-bit version, but here’s how to find out for sure:</p>
+								<p>On Windows, select <b>Start▸Control Panel▸System</b> and check whether System Type says 64-bit or 32-bit.</p>
+								<p>On OS X, go the Apple menu, select <b>About This Mac▸More Info ▸ System Report▸Hardware,</b> and then look at the Processor Name field. If it says Intel Core Solo or Intel Core Duo, you have a 32-bit machine. If it says anything else (including Intel Core 2 Duo), you have a 64-bit machine.</p>
+								<p>On Ubuntu Linux, open a Terminal and run the command <b>uname -m</b>. A response of i686 means 32-bit, and x86_64 means 64-bit.</p>
+								<ol>
+									<li>Click <b>Continue</b> through the Welcome section and click <b>Agree</b> to accept the license.</li>
+									<li>Select <b>HD Macintosh</b> (or whatever name your hard drive has) and click <b>Install</b>.</li>
+								</ol>
+								<p>If you’re running Ubuntu, you can install Python from the Terminal by following these step:</p>
+								<ol>
+									<li>Open the Terminal window.</li>
+									<li>Enter <b>sudo apt-get install ruby</b></li>
+									<li>Enter <b>sudo apt-get install gem</b></li>
+								</ol>
+
+								<hr />
+							</section>
+							<section class="centro">
+								<h3>The Interactive Shell</h3>
+								<p>No matter which operating system you’re running, the IDLE window that first appears should be mostly blank except for text that looks something like this:</p>
+
+								<p>2.3.0 :001 ></p>
+
+								<p>But you have to type first (irb)on de command line.
+								This window is called the interactive shell. A shell is a program that lets you type instructions into the computer, much like the Terminal or Command Prompt on OS X and Windows, respectively. Ruby’s interactive shell lets you enter instructions for the Ruby interpreter software to run. The computer reads the instructions you enter and runs them immediately.</p>
+								<p>For example, enter the following into the interactive shell next to the 
+								<b>print 'Hello world!'</b></p>
+								<p>After you type that line and press ENTER, the interactive shell should display this in response:
+								<b>print 'Hello world!'</b></p>
+								<p>Hello world!</p>
+
+								<hr />
+
+								<header>
+									<h3>How to Find Help</h3>
+								</header>
+								<p>Solving programming problems on your own is easier than you might think. If you’re not convinced, then let’s cause an error on purpose: Enter <b>'42' + 3</b> into the interactive shell. You don’t need to know what this instruction means right now, but the result should look like this:</p>
+								<p> <b>'42' + 3</b><br>
+								2.3.0 :002 > '45'+3<br>
+								TypeError: no implicit conversion of Fixnum into String<br>
+								<span class="tab"></span><span class="tab"></span>from (irb):2:in `+'<br>
+								<span class="tab"></span><span class="tab"></span>from (irb):2
+								</p>
+								 
+								<p>The error message ❷ appeared here because Ruby couldn’t understand your instruction. The Type Error part ❶ of the error message shows the specific instruction and line number that Ruby had trouble with. If you’re not sure what to make of a particular error message, search online for the exact error message. Enter <b>“TypeError: no implicit conversion of Fixnum into String.”</b> (including the quotes) into your favorite search engine, and you should see tons of links explaining what the error message means and what causes it, as shown in Figure 2.</p>
+
+								<div class="box alt">
+									<div class="row 50% uniform">
+										<div class="12u$">
+											<span class="image fit"><img src="images/chapter-0/image03.png" alt="" /></span>
+										</div>
+									</div>
+								</div>
+								<p>Figure 2. The Google results for an error message can be very helpful.
+								You’ll often find that someone else had the same question as you and that some other helpful person has already answered it. No one person can know everything about programming, so an everyday part of any software developer’s job is looking up answers to technical questions.</p>
+		
+
+								<hr />
+							</section>
+							<section class="centro">
+								<h3>Asking Smart Programming Questions</h3>
+								<p>If you can’t find the answer by searching online, try asking people in a web forum such as Stack Overlow (<a href="http://stackoverflow.com/">http://stackoverflow.com/</a>) or the “learn programming” subreddit at <a href="http://reddit.com/r/learnprogramming/"> http://reddit.com/r/learnprogramming/</a>. But keep in mind there are smart ways to ask programming questions that help others help you. Be sure to read the Frequently Asked Questions sections these websites have about the proper way to post questions.</p>
+								<p>When asking programming questions, remember to do the following:</p>
+								<ul>
+									<li>Explain what you are trying to do, not just what you did. This lets your helper know if you are on the wrong track.</li>
+									<li>Specify the point at which the error happens. Does it occur at the very start of the program or only after you do a certain action?</li>
+									<li>Copy and paste the entire error message and your code to <a href="http://pastebin.com/">http://pastebin.com/</a> or <a href="http://gist.github.com/">http://gist.github.com/.</a></li>
+									<li>These websites make it easy to share large amounts of code with people over the Web, without the risk of losing any text formatting. You can then put the URL of the posted code in your email or forum post. For example, here some pieces of code I’ve posted: <a href="http://pastebin.com/SzP2DbFx/"> http://pastebin.com/SzP2DbFx/</a> and <a href="https://gist.github.com/asweigart/6912168/.">https://gist.github.com/asweigart/6912168/.</a></li>
+									<li>Explain what you’ve already tried to do to solve your problem. This tells people you’ve already put in some work to figure things out on your own.</li>
+									<li>If the error came up after you made a change to your code, explain exactly what you changed.</li>
+									<li>Say whether you’re able to reproduce the error every time you run the program or whether it happens only after you perform certain actions. Explain what those actions are, if so.</li>
+								</ul>
+
+								<p>Always follow good online etiquette as well. For example, don’t post your questions in all caps or make unreasonable demands of the people trying to help you.</p>
+
+								<hr />
+
+								<header>
+									<h3>Summary</h3>
+								</header>
+								<p>For most people, their computer is just an appliance instead of a tool. But by learning how to program, you’ll gain access to one of the most powerful tools of the modern world, and you’ll have fun along the way. Programming isn’t brain surgery—it’s fine for amateurs to experiment and make mistakes.</p>
+								<p>This book will start you off from zero programming knowledge, but you may have questions beyond its scope. Remember that asking effective questions and knowing how to find answers are invaluable tools on your programming journey.
+								Let’s begin!</p>
+		
+
+								<hr />
+							</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.twitter.com/innova_code" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/innocacode" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.linkedin.com/company/innovacode-srl" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.instagram.com/innovacoderd" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/innova-code" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto:info@innova-code.com" class="icon alt fa-envelope"><span class="label">info@innova-code.com</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy;<a href="https://www.innova-code.com/en/" target="_blank"> Innovacode</a>. All rights reserved.</li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

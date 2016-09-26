@@ -2095,9 +2095,22 @@
 	}
 
 /* Section/Article */
+	.color{
+		color: red;
+	}
+
+	.tab{
+		text-indent: 1em;
+		margin-left: 1em;
+	}
 
 	section.special, article.special {
 		text-align: center;
+	}
+
+	section.centro{
+		width: 70%;
+		margin: 0 auto;
 	}
 
 	header p {
@@ -2130,6 +2143,11 @@
 		margin: 0 0 4em 0;
 		position: relative;
 		text-align: center;
+	}
+
+	header.centro{
+		width: 70%;
+		margin: 0 auto;
 	}
 
 		header.major:after {
@@ -3659,6 +3677,10 @@
 
 			header.major {
 				margin: 0 0 2em 0;
+			}
+
+			header.centro{
+				margin: 0 auto;
 			}
 
 		/* Goto Next */
